@@ -1,0 +1,70 @@
+.sunsistem {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#airplane {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 355px 0 0 550px;
+	}
+	
+	#helmet {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 200px 0 0 500px;
+	}
+	
+	#cloud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px 0 0 0px;
+	}
+	
+#compass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 575px 0 0 800px;
+	}
+#balloon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 80px 0 0 800px;
+}
+
+#pilot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 400px 0 0 190px;
+}
+
+#passenger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 291px 0 0 705px;
+}
+
+#gelicopter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 267px 0 0 100px;
+}
+
+#message {
+    position: absolute;
+    font-family: "Times New Roman", Times, serif;
+    background-color: black;
+    color: white;
+    font-size: 20pt;	
+    top: 0;
+    left: 0;
+    margin: 100px 0 0 320px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Отображение формулы</title>
+<style>
+.formula {
+  font-size: 20px;
+}
+</style>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+</head>
+<body>
+<h1>Отображение формулы</h1>
+
+<div class="formula">
+  
+<ol>
+<li>\[\int \frac {dx}{a^2 + x^2}=\frac {1}{a} \arctan(\frac{x}{a}) + C (a\neq 0)\]</li>
+<li>\[\int \frac {dx}{\sqrt{x^2\pm a^2}} = ln \left| x+/\sqrt{x^2\pm a^2} \right| +C (a>0)\]	</li>
+<li>\[A^2+AA+\begin{pmatrix}
+3 & 2 \\
+1 & 4
+\end{pmatrix}
+\begin{pmatrix}
+3 & 2 \\
+1 & 4
+\end{pmatrix} =\begin{pmatrix}
+11 & 14 \\
+7 & 18
+\end{pmatrix}\]	</li>
+</ol>
+
+<script>
+window.onload = function() {
+  var formula = document.querySelector('.formula');
+  
+  formula.innerHTML = formula.innerHTML.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&ne;/g, '≠');
+};
+</script>
+
+</body>
+</html>

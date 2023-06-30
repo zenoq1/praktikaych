@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>canvas</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<canvas id="imageView" width="600" height="500"></canvas>
+<script type="text/javascript">
+var canvas, context, canvaso, contexto;
+canvaso = document.getElementById('imageView');
+context = canvaso.getContext('2d');
+context.lineWidth = 5;
+
+context.strokeStyle = '#000000';
+context.strokeRect(169, 170, 286, 171);
+context.strokeStyle = '#000000';
+context.strokeRect(455, 85, 107, 256);
+context.strokeStyle = '#000000';
+context.strokeRect(62, 85, 107, 256);
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(266, 231);
+context.lineTo(266, 339);
+context.stroke();
+context.closePath();
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(356, 231);
+context.lineTo(356, 339);
+context.stroke();
+context.closePath();
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(320, 190);
+context.lineTo(356, 230);
+context.stroke();
+context.closePath();
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(266, 232);
+context.lineTo(312, 190);
+context.stroke();
+context.closePath();
+context.moveTo(313, 196);
+context.lineTo(313, 337);
+context.stroke();
+context.closePath();
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(291, 268);
+context.lineTo(305, 268);
+context.stroke();
+context.closePath();
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(322, 268);
+context.lineTo(336, 268);
+context.stroke();
+context.closePath();
+ </script>
+ <style type="text/css">
+ body {
+	background-color: #1E90FF;
+ }
+ </style>
+ </body>
+</html>
